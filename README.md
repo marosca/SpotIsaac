@@ -4,7 +4,13 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files. 
+
+## Parameters needed
+In app/services/spotify.service.ts you need to change to variables inside the 'getTokenFromSpotify' function:
+
+        let client_id = 'YOUR CLIENT ID';
+        let client_secret = 'YOUR CLIENT SECRET';
 
 ## Code scaffolding
 
