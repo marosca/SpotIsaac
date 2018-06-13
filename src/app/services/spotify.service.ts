@@ -17,8 +17,8 @@ export class SpotifyService {
     getTokenFromSpotify(){
 
 		let url = 'https://spotifygeneratetoken.herokuapp.com/get_token';
-        let client_id = 'YOUR CLIENT ID';
-        let client_secret = 'YOUR CLIENT SECRET';
+		let client_id = '9027c81b4bf0438d904415937a6757ee';
+        let client_secret = 'c7a7d99ce2da4a7aa0b7b7e70f602e16';
         let grant_type = 'client_credentials';
 
         let headers = new Headers();
